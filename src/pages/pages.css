@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    margin-left: 200px;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    background-color: #FAF3DD;
+    opacity: 0.5;
+    font-size: medium;
+}
