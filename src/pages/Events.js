@@ -1,25 +1,35 @@
-import React from "react";
+import React, { Component } from "react";
 
-export const Events = () => {
+class Events extends Component {
+render() {
 return (
 	<div className="events">
-	<h1>Test1</h1>
+	<h2>Choose an events option from the drop-down list in the menu</h2>
 	</div>
 );
+}
 };
 
-export const EventsOne = () => {
+class EventsOne extends Component {
+render() {
 return (
 	<div className="events">
-	<h1>Test2</h1>
+	<h2>12/24/2022</h2>
+	<p>Christmas Eve!</p>
 	</div>
 );
+}
 };
 
-export const EventsTwo = () => {
+class EventsTwo extends Component {
+render() {
 return (
 	<div className="events">
-	<h1>Test3</h1>
+	<h2>12/25/2022</h2>
+	<p>Christmas Day!</p>
 	</div>
 );
+}
 };
+
+export { Events, EventsOne, EventsTwo };
